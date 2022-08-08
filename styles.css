@@ -509,3 +509,127 @@ header{
 .person__info--title{
     color: #999;
 }
+
+.faq__buttons{
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 142px;
+}
+
+.faq__button{
+    width: 100%;
+    margin-top: 16px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(196, 206, 231, 0.24);
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq__button--text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.faq__button--arrow{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* banner */
+
+.banner{
+    background-color: #3CCAFF;
+    margin: 0 32px;
+    border-radius: 8px;
+    padding: 96px 62px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner__text{
+    width: 55%;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.banner__btns{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner__btn{
+    margin-left: 20px;
+    width: 172px;
+    height: 70px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff6c69;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__btn--invert{
+    border: solid #fff;
+    background-color: #3CCAFF;
+}
+
+/* footer */
+
+footer{
+    background-color: #3CCAFF;
+    margin-top: 80px;
+}
+
+.footer__links--holder{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links--column{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 32px;
+}
+
+.column__title{
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.column__link{
+    margin: 8px 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.lower__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line{
+    height: 1px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.26);
+    margin-bottom: 40px;
+}
+
+.copyright{
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 80px 0;
+}
