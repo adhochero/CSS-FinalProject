@@ -21,6 +21,7 @@ p{
 
 .section__wrapper{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .section__wrapper--column{
@@ -563,7 +564,7 @@ header{
 }
 
 .banner__btn{
-    margin-left: 20px;
+    margin: 8px 0 8px 20px;
     width: 172px;
     height: 70px;
     border: none;
@@ -591,6 +592,7 @@ footer{
 
 .footer__links--holder{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -632,4 +634,129 @@ footer{
     color: #fff;
     text-align: center;
     padding: 20px 0 80px 0;
+}
+
+/* responsive */
+
+@media (max-width: 850px){
+    .nav__links{
+        display: none;
+    }
+
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__input{
+        text-align: center;
+    }
+
+    .header__info{
+       justify-content: center;
+       width: 80%;
+    }
+
+    .header__title{
+        text-align: center;
+    }
+
+    .header__para{
+        text-align: center;
+    }
+
+    .header__form{
+        align-self: center;
+        width: 50%;
+    }
+
+    .header__btn{
+        position: relative;
+    }
+
+    .header__image{
+        padding: 60px 0;
+    }
+
+    .feature{
+        width: 50%;
+    }
+
+    .container{
+        padding: 62px 0;
+    }
+
+    .section__wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section__figure{
+        padding: 60px 0;
+    }
+
+    .section__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .section__info--title{
+        text-align: center;
+    }
+
+    .section__info--subtitle{
+        text-align: center;
+    }
+
+    .section__info--para{
+        text-align: center;
+    }
+
+    .banner__btns{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px){
+    .feature{
+        width: 100%;
+    }
+
+    .values__list{
+        flex-wrap: wrap;
+    }
+
+    .values__list--item{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .values__list--item-title{
+        justify-content: center;
+    }
+
+    .values__list--item-para{
+        text-align: center;
+    }
+
+    .prices{
+        flex-wrap: wrap;
+    }
+
+    .price{
+        width: 100%;
+        
+    }
+
+    .banner{
+        flex-direction: column;
+        align-items: center;
+    }
 }

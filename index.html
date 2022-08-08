@@ -7,9 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/bde229637b.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <section id="landing">
+    <section id="landing" data-aos="fade-right">
         <div class="row">
             <nav>
                 <div class="nav__logo">
@@ -155,7 +156,7 @@
         </div>
     </section>
 
-    <section id="quality">
+    <section id="quality" data-aos="fade-right">
         <div class="container">
             <div class="row">
                 <div class="section__wrapper">
@@ -179,7 +180,7 @@
         </div>
     </section>
 
-    <section class="steps">
+    <section class="steps" data-aos="fade-left">
         <div class="container">
             <div class="row">
                 <div class="section__wrapper">
@@ -240,7 +241,7 @@
         </div>
     </section>
 
-    <section id="values">
+    <section id="values" data-aos="fade-right">
         <div class="container">
             <div class="row">
                 <div class="section__wrapper">
@@ -284,7 +285,7 @@
         </div>
     </section>
 
-    <section id="pricing">
+    <section id="pricing" data-aos="fade-left">
         <div class="container">
              <div class="row">
                 <div class="section__wrapper section__wrapper--column aicenter">
@@ -357,7 +358,7 @@
         </div>
     </section>
 
-    <section id="Testimonials">
+    <section id="Testimonials" data-aos="fade-right">
         <div class="container">
             <div class="row">
                 <div class="section__wrapper">
@@ -402,7 +403,7 @@
         </div>
     </section>
 
-    <section id="faq">
+    <section id="faq" data-aos="fade-left">
         <div class="container">
             <div class="row">
                 <div class="section__wrapper section__wrapper--column aicenter">
@@ -446,7 +447,7 @@
         </div>
     </section>
 
-    <section id="banner">
+    <section id="banner" data-aos="fade-right">
         <div class="container">
             <div class="row">
                 <div class="banner">
@@ -467,7 +468,7 @@
     </section>
 
     <footer>
-        <div class="row">
+        <div class="row" data-aos="fade-left">
             <div class="footer__links--holder">
                 <div class="footer__links--column">
                     <div class="column__title">Main</div>
@@ -513,5 +514,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
